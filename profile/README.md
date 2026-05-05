@@ -15,13 +15,17 @@ Validates work against quality standards. The **Touchstone Standard** defines el
 
 Domain: [touchstone.clarethium.com](https://touchstone.clarethium.com)
 
-### [Lodestone](https://github.com/Clarethium/lodestone)
+### Lodestone
 Orients practice. The canonical operator methodology for working with AI systems: stance, loop, calibration, altitude, failure shapes, quality levels, surface protocols, compound practice. Reference manuscript under CC-BY 4.0.
+
+Status: pre-launch (manuscript drafted across nine sections; public release pending).
 
 **Companion tooling:**
 
-### [cma](https://github.com/Clarethium/cma)
+### cma
 Executable compound-practice loop. The terminal-side companion to Lodestone: captures failures, surfaces relevant context at the moment of action, tracks decisions, detects recurrence patterns.
+
+Status: pre-launch (1.0 reference implementation operational; public release pending).
 
 **Applied vehicles:**
 
