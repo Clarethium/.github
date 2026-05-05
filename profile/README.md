@@ -1,20 +1,35 @@
 # Clarethium
 
-Methodology, standards, and reference implementations for AI-coupled work.
+The canonical methodology for AI-coupled work.
 
-Clarethium develops model-independent verification methodology for AI outputs and the tools that implement it. The work is open: standards under CC-BY 4.0, libraries under Apache 2.0.
+Clarethium publishes reference artifacts and tooling for measuring AI outputs, orienting operator practice, and sharpening craft. The work is open: reference texts under CC-BY 4.0, libraries under Apache 2.0.
 
 ---
 
 ## Projects
 
+**Methodology reference artifacts (the three stones):**
+
 ### [Touchstone](https://github.com/Clarethium/touchstone)
-Model-independent verification for AI-coupled work. The **Touchstone Standard** defines eleven measurement layers for output profiling and five layers for specification compliance verification. The `clarethium-touchstone` library is the reference implementation.
+Validates work against quality standards. The **Touchstone Standard** defines eleven measurement layers for AI output profiling: structural composition, claim density, source matching, grounding decomposition, and others. The `clarethium-touchstone` library is the reference Python implementation.
 
 Domain: [touchstone.clarethium.com](https://touchstone.clarethium.com)
 
+### [Lodestone](https://github.com/Clarethium/lodestone)
+Orients practice. The canonical operator methodology for working with AI systems: stance, loop, calibration, altitude, failure shapes, quality levels, surface protocols, compound practice. Reference manuscript under CC-BY 4.0.
+
+### Whetstone
+Sharpens craft. Currently at [`clarethium-app`](https://github.com/Clarethium/clarethium-app); rename to `whetstone` is planned.
+
+**Companion tooling:**
+
+### [cma](https://github.com/Clarethium/cma)
+Executable compound-practice loop. The terminal-side companion to Lodestone: captures failures, surfaces relevant context at the moment of action, tracks decisions, detects recurrence patterns.
+
+**Applied vehicles:**
+
 ### [Frame Check](https://github.com/Clarethium/frame-check-mcp)
-Applied tool for frame validation in AI outputs. Uses Clarethium methodology in a specific applied context.
+Applied tool for frame validation in AI outputs. Built on the Touchstone substrate.
 
 Domain: [frame.clarethium.com](https://frame.clarethium.com)
 
@@ -62,9 +77,9 @@ The work rests on four commitments:
 
 ## Status
 
-Pre-launch for the Touchstone Standard 1.0 (drafting in progress). Frame Check operational. Other projects in development.
+Touchstone Standard 1.0 in late draft (Sections 2 and 11 require operator authoring before ratification). Lodestone v1.0 manuscript drafted across nine sections. cma 1.0 reference implementation operational. Frame Check operational. Whetstone in active development.
 
-Watch the [Touchstone repository](https://github.com/Clarethium/touchstone) for first release.
+Watch the [Touchstone repository](https://github.com/Clarethium/touchstone) for first ratified release.
 
 ---
 

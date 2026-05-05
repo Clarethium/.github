@@ -28,5 +28,13 @@ When adding or removing projects from the org, update `profile/README.md` to ref
 
 Current active projects:
 
-- [touchstone](https://github.com/Clarethium/touchstone) - Touchstone Standard and reference implementation
-- [frame-check-mcp](https://github.com/Clarethium/frame-check-mcp) - Applied tool for frame validation in AI outputs
+Methodology reference artifacts (the three stones):
+- [touchstone](https://github.com/Clarethium/touchstone): Touchstone Standard and reference implementation
+- [lodestone](https://github.com/Clarethium/lodestone): canonical operator methodology manuscript
+- Whetstone: at [clarethium-app](https://github.com/Clarethium/clarethium-app); rename to `whetstone` planned
+
+Companion tooling:
+- [cma](https://github.com/Clarethium/cma): executable compound-practice loop, terminal-side companion to Lodestone
+
+Applied vehicles:
+- [frame-check-mcp](https://github.com/Clarethium/frame-check-mcp): applied tool for frame validation in AI outputs
