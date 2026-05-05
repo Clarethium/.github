@@ -56,8 +56,7 @@ The work rests on four commitments:
 
 ## Related
 
-- **FieldReceipts** ([fieldreceipts.com](https://fieldreceipts.com)) — community platform for AI-coupled builders, uses Clarethium methodology as substrate. Independent project.
-- **Clarethium website** ([clarethium.com](https://clarethium.com)) — methodology research, blog, mothership.
+- **Clarethium website** ([blog.clarethium.com](https://blog.clarethium.com)) — methodology research, blog, mothership.
 
 ---
 
