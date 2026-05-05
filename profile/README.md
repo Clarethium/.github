@@ -8,7 +8,7 @@ Clarethium publishes reference artifacts and tooling for measuring AI outputs, o
 
 ## Projects
 
-**Methodology reference artifacts (the three stones):**
+**Open methodology reference artifacts:**
 
 ### [Touchstone](https://github.com/Clarethium/touchstone)
 Validates work against quality standards. The **Touchstone Standard** defines eleven measurement layers for AI output profiling: structural composition, claim density, source matching, grounding decomposition, and others. The `clarethium-touchstone` library is the reference Python implementation.
@@ -17,9 +17,6 @@ Domain: [touchstone.clarethium.com](https://touchstone.clarethium.com)
 
 ### [Lodestone](https://github.com/Clarethium/lodestone)
 Orients practice. The canonical operator methodology for working with AI systems: stance, loop, calibration, altitude, failure shapes, quality levels, surface protocols, compound practice. Reference manuscript under CC-BY 4.0.
-
-### Whetstone
-Sharpens craft. Currently at [`clarethium-app`](https://github.com/Clarethium/clarethium-app); rename to `whetstone` is planned.
 
 **Companion tooling:**
 
@@ -77,7 +74,7 @@ The work rests on four commitments:
 
 ## Status
 
-Touchstone Standard 1.0 in late draft (Sections 2 and 11 require operator authoring before ratification). Lodestone v1.0 manuscript drafted across nine sections. cma 1.0 reference implementation operational. Frame Check operational. Whetstone in active development.
+Touchstone Standard 1.0 in late draft (Sections 2 and 11 require operator authoring before ratification). Lodestone v1.0 manuscript drafted across nine sections. cma 1.0 reference implementation operational. Frame Check operational.
 
 Watch the [Touchstone repository](https://github.com/Clarethium/touchstone) for first ratified release.
 

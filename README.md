@@ -28,10 +28,9 @@ When adding or removing projects from the org, update `profile/README.md` to ref
 
 Current active projects:
 
-Methodology reference artifacts (the three stones):
+Open methodology reference artifacts:
 - [touchstone](https://github.com/Clarethium/touchstone): Touchstone Standard and reference implementation
 - [lodestone](https://github.com/Clarethium/lodestone): canonical operator methodology manuscript
-- Whetstone: at [clarethium-app](https://github.com/Clarethium/clarethium-app); rename to `whetstone` planned
 
 Companion tooling:
 - [cma](https://github.com/Clarethium/cma): executable compound-practice loop, terminal-side companion to Lodestone
