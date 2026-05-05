@@ -13,7 +13,7 @@ Model-independent verification for AI-coupled work. The **Touchstone Standard** 
 
 Domain: [touchstone.clarethium.com](https://touchstone.clarethium.com)
 
-### Frame Check
+### [Frame Check](https://github.com/Clarethium/frame-check-mcp)
 Applied tool for frame validation in AI outputs. Uses Clarethium methodology in a specific applied context.
 
 Domain: [frame.clarethium.com](https://frame.clarethium.com)
@@ -56,7 +56,7 @@ The work rests on four commitments:
 
 ## Related
 
-- **Clarethium website** ([blog.clarethium.com](https://blog.clarethium.com)) — methodology research, blog, mothership.
+- **Clarethium website** ([blog.clarethium.com](https://blog.clarethium.com)) - methodology research, blog, mothership.
 
 ---
 

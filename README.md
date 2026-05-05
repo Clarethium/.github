@@ -28,5 +28,5 @@ When adding or removing projects from the org, update `profile/README.md` to ref
 
 Current active projects:
 
-- [touchstone](https://github.com/Clarethium/touchstone) — Touchstone Standard and reference implementation
-- (frame-check, when migrated from `lluvr/frame-check`)
+- [touchstone](https://github.com/Clarethium/touchstone) - Touchstone Standard and reference implementation
+- [frame-check-mcp](https://github.com/Clarethium/frame-check-mcp) - Applied tool for frame validation in AI outputs
