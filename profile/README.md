@@ -2,7 +2,7 @@
 
 The canonical methodology for AI-coupled work.
 
-Clarethium publishes reference artifacts and tooling for measuring AI outputs, orienting operator practice, and sharpening craft. The work is open: reference texts under CC-BY 4.0, libraries under Apache 2.0.
+Clarethium publishes reference artifacts and tooling for measuring AI outputs, orienting operator practice, and sharpening craft. The work is open: reference texts under CC-BY 4.0, libraries under Apache 2.0. The discipline is canonical; the running implementations are reference-grade.
 
 ---
 
@@ -10,29 +10,42 @@ Clarethium publishes reference artifacts and tooling for measuring AI outputs, o
 
 **Open methodology reference artifacts:**
 
+### [Lodestone](https://github.com/Clarethium/lodestone)
+
+The canonical operator methodology for AI-coupled work. Eight sections plus a glossary specify the practice: stance, the loop, calibration, altitude, failure shapes, quality levels, surface discipline, and compound practice. The methodology operationalizes established traditions: naturalistic decision-making, reflective practice, cognitive load theory, deliberate practice, and extended cognition. A forward-looking annex on collective practice extends the discipline across operators (provisional, pending pilot validation).
+
 ### [Touchstone](https://github.com/Clarethium/touchstone)
-Validates work against quality standards. The **Touchstone Standard** defines eleven measurement layers for AI output profiling: structural composition, claim density, source matching, grounding decomposition, and others. The `clarethium-touchstone` library is the reference Python implementation.
+
+Model-independent verification for AI-coupled work. The **Touchstone Standard** defines eleven measurement layers for output profiling and five layers for specification compliance verification. The `clarethium-touchstone` library is the reference implementation.
 
 Domain: [touchstone.clarethium.com](https://touchstone.clarethium.com)
 
-### Lodestone
-Orients practice. The canonical operator methodology for working with AI systems: stance, loop, calibration, altitude, failure shapes, quality levels, surface protocols, compound practice. Reference manuscript under CC-BY 4.0.
-
-Status: pre-launch (manuscript drafted across nine sections; public release pending).
-
 **Companion tooling:**
 
-### cma
-Executable compound-practice loop. The terminal-side companion to Lodestone: captures failures, surfaces relevant context at the moment of action, tracks decisions, detects recurrence patterns.
+### [cma](https://github.com/Clarethium/cma)
 
-Status: pre-launch (1.0 reference implementation operational; public release pending).
+Executable compound practice loop. The terminal-side companion to Lodestone. cma captures failures, surfaces relevant prior context at the moment of action, tracks decisions and rejected alternatives, and detects recurrence patterns. Action-time injection ships for Claude Code (PreToolUse and SessionStart hooks) and shell environments (zsh native preexec, bash via bash-preexec).
 
 **Applied vehicles:**
 
 ### [Frame Check](https://github.com/Clarethium/frame-check-mcp)
-Applied tool for frame validation in AI outputs. Built on the Touchstone substrate.
+
+Applied tool for structural framing analysis. Names which perspectives a document takes, which it omits, how it positions the reader. The MCP package gives any MCP-compatible AI client (Claude Desktop, Cursor, Cline, Continue.dev) deterministic framing analysis as a tool.
 
 Domain: [frame.clarethium.com](https://frame.clarethium.com)
+
+---
+
+## How the body composes
+
+The four projects compose by design:
+
+- **Lodestone** orients the operator's practice (the methodology canon).
+- **Touchstone** validates work against quality standards (the measurement substrate).
+- **cma** runs the compound practice loop on the operator's machine (the executable companion to Lodestone).
+- **Frame Check** applies Clarethium methodology in a specific context (frame validation).
+
+The methodology and the running implementations reinforce each other: methodology refines from observed practice; practice runs better with surfaced context; measurement stays sovereign because it does not invoke models on the outputs being measured.
 
 ---
 
@@ -62,25 +75,27 @@ The work rests on four commitments:
 
 ## How to engage
 
-- **Read the [Touchstone Standard](https://github.com/Clarethium/touchstone/blob/main/STANDARDS/touchstone-1.0.md)** if you want to understand the methodology.
-- **Use the libraries** to verify AI outputs in your work.
-- **Cite the Standard** when you use the methodology in research or compliance.
-- **Propose changes** via the [Suggestion Process](https://github.com/Clarethium/touchstone/blob/main/SUGGESTIONS/PROCESS.md).
+- **Read [Lodestone](https://github.com/Clarethium/lodestone)** to adopt the methodology.
+- **Read the [Touchstone Standard](https://github.com/Clarethium/touchstone/blob/main/STANDARDS/touchstone-1.0.md)** to understand the measurement substrate.
+- **Run [cma](https://github.com/Clarethium/cma)** to adopt compound practice on your local machine.
+- **Install [Frame Check](https://pypi.org/project/frame-check-mcp/)** to add frame analysis to your AI client.
+- **Cite the work** when you use it in research, compliance, or applied practice.
+- **Propose changes** via the [Touchstone Suggestion Process](https://github.com/Clarethium/touchstone/blob/main/SUGGESTIONS/PROCESS.md) for the Standard, or via issues for individual repositories.
 - **Build conforming implementations** in other languages or for specific use cases.
 
 ---
 
 ## Related
 
-- **Clarethium website** ([blog.clarethium.com](https://blog.clarethium.com)) - methodology research, blog, mothership.
+- **[Clarethium website](https://blog.clarethium.com)**: methodology research, blog, mothership.
 
 ---
 
 ## Status
 
-Touchstone Standard 1.0 in late draft (Sections 2 and 11 require operator authoring before ratification). Lodestone v1.0 manuscript drafted across nine sections. cma 1.0 reference implementation operational. Frame Check operational.
+Lodestone v1.0 published. Touchstone Standard 1.0 drafting in progress; reference implementation feature-complete on `main`. cma 1.0 reference implementation; all seven primitives functional. Frame Check operational on PyPI and at frame.clarethium.com.
 
-Watch the [Touchstone repository](https://github.com/Clarethium/touchstone) for first ratified release.
+Watch the [Touchstone repository](https://github.com/Clarethium/touchstone) for the Standard 1.0 release.
 
 ---
 
