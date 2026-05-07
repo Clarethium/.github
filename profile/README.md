@@ -26,6 +26,8 @@ Domain: [touchstone.clarethium.com](https://touchstone.clarethium.com)
 
 Executable compound practice loop. The terminal-side companion to Lodestone. cma captures failures, surfaces relevant prior context at the moment of action, tracks decisions and rejected alternatives, and detects recurrence patterns. Action-time injection ships for Claude Code (PreToolUse and SessionStart hooks) and shell environments (zsh native preexec, bash via bash-preexec).
 
+The companion **[cma-mcp](https://github.com/Clarethium/cma/tree/main/cma-mcp)** Python distribution exposes the same loop to MCP-compatible AI clients (Claude Desktop, Cursor, Cline, Continue.dev). Subprocess wrapper around the canonical bash cma binary; methodology-agnostic substrate; three-section payload (`analysis` + `agent_guidance` + `provenance`) on every response. Install with `pip install cma-mcp`.
+
 **Applied vehicles:**
 
 ### [Frame Check](https://github.com/Clarethium/frame-check-mcp)
@@ -42,7 +44,7 @@ The four projects compose by design:
 
 - **Lodestone** orients the operator's practice (the methodology canon).
 - **Touchstone** validates work against quality standards (the measurement substrate).
-- **cma** runs the compound practice loop on the operator's machine (the executable companion to Lodestone).
+- **cma** runs the compound practice loop on the operator's machine (the executable companion to Lodestone); **cma-mcp** is the same loop addressed to MCP-compatible AI clients.
 - **Frame Check** applies Clarethium methodology in a specific context (frame validation).
 
 The methodology and the running implementations reinforce each other: methodology refines from observed practice; practice runs better with surfaced context; measurement stays sovereign because it does not invoke models on the outputs being measured.
@@ -78,6 +80,7 @@ The work rests on four commitments:
 - **Read [Lodestone](https://github.com/Clarethium/lodestone)** to adopt the methodology.
 - **Read the [Touchstone Standard](https://github.com/Clarethium/touchstone/blob/main/STANDARDS/touchstone-1.0.md)** to understand the measurement substrate.
 - **Run [cma](https://github.com/Clarethium/cma)** to adopt compound practice on your local machine.
+- **Install [cma-mcp](https://github.com/Clarethium/cma/tree/main/cma-mcp)** (`pip install cma-mcp`) to use the loop in Claude Desktop, Cursor, Cline, or other MCP-compatible AI clients.
 - **Install [Frame Check](https://pypi.org/project/frame-check-mcp/)** to add frame analysis to your AI client.
 - **Cite the work** when you use it in research, compliance, or applied practice.
 - **Propose changes** via the [Touchstone Suggestion Process](https://github.com/Clarethium/touchstone/blob/main/SUGGESTIONS/PROCESS.md) for the Standard, or via issues for individual repositories.
@@ -93,7 +96,7 @@ The work rests on four commitments:
 
 ## Status
 
-Lodestone v1.0 published. Touchstone Standard 1.0 drafting in progress; reference implementation feature-complete on `main`. cma 1.0 reference implementation; all seven primitives functional. Frame Check operational on PyPI and at frame.clarethium.com.
+Lodestone v1.0 published. Touchstone Standard 1.0 drafting in progress; reference implementation feature-complete on `main`. cma 1.0 reference implementation; all seven primitives functional. cma-mcp 0.1 first reference implementation (Python wrapper); installable from source pending PyPI publication. Frame Check operational on PyPI and at frame.clarethium.com.
 
 Watch the [Touchstone repository](https://github.com/Clarethium/touchstone) for the Standard 1.0 release.
 
