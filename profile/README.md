@@ -96,7 +96,7 @@ The work rests on four commitments:
 
 ## Status
 
-Lodestone v1.0 published. Touchstone Standard 1.0 drafting in progress; reference implementation feature-complete on `main`. cma 1.0 reference implementation; all seven primitives functional. cma-mcp 0.1 first reference implementation (Python wrapper); installable from source pending PyPI publication. Frame Check operational on PyPI and at frame.clarethium.com.
+Lodestone v1.0 published. Touchstone Standard 1.0 drafting in progress; reference implementation feature-complete on `main`. cma 1.0 reference implementation; all seven primitives functional. cma-mcp 0.1.0 published to PyPI ([cma-mcp](https://pypi.org/project/cma-mcp/), `pip install cma-mcp`). Frame Check operational on PyPI and at frame.clarethium.com.
 
 Watch the [Touchstone repository](https://github.com/Clarethium/touchstone) for the Standard 1.0 release.
 
