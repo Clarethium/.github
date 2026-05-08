@@ -36,4 +36,4 @@ Companion tooling:
 - [cma](https://github.com/Clarethium/cma): executable compound-practice loop, terminal-side companion to Lodestone
 
 Applied vehicles:
-- [frame-check-mcp](https://github.com/Clarethium/frame-check-mcp): applied tool for frame validation in AI outputs
+- [frame-check](https://github.com/Clarethium/frame-check): applied tool for frame validation in AI outputs

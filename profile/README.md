@@ -30,7 +30,7 @@ The companion **[cma-mcp](https://github.com/Clarethium/cma/tree/main/cma-mcp)**
 
 **Applied vehicles:**
 
-### [Frame Check](https://github.com/Clarethium/frame-check-mcp)
+### [Frame Check](https://github.com/Clarethium/frame-check)
 
 Applied tool for structural framing analysis. Names which perspectives a document takes, which it omits, how it positions the reader. The MCP package gives any MCP-compatible AI client (Claude Desktop, Cursor, Cline, Continue.dev) deterministic framing analysis as a tool.
 
